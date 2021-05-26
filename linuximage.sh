@@ -1,10 +1,10 @@
-#! /bin/sh
+#! /bin/bash
 cd Desktop
-wget "https://github.com/mpaynezen/linux/raw/main/ConnectWiseControl.ClientSetup.deb"
-wget "https://github.com/mpaynezen/linux/raw/main/anyconnect-linux64-4.9.05042-predeploy-k9.tar.gz"
-wget "https://github.com/mpaynezen/linux/raw/main/teams_1.4.00.7556_amd64.deb"
-wget "https://github.com/mpaynezen/linux/raw/main/amp_Workstation_Protect_Group_ubuntu-20-04.deb"
-wget "https://github.com/mpaynezen/linux/raw/main/cisco.gpg"
+wget 'https://github.com/mpaynezen/linux/raw/main/ConnectWiseControl.ClientSetup.deb'
+wget 'https://github.com/mpaynezen/linux/raw/main/anyconnect-linux64-4.9.05042-predeploy-k9.tar.gz'
+wget 'https://github.com/mpaynezen/linux/raw/main/teams_1.4.00.7556_amd64.deb'
+wget 'https://github.com/mpaynezen/linux/raw/main/amp_Workstation_Protect_Group_ubuntu-20-04.deb'
+wget 'https://github.com/mpaynezen/linux/raw/main/cisco.gpg'
 sudo apt update
 sudo apt install default-jdk
 sudo apt --fix-broken install
