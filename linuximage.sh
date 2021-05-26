@@ -1,3 +1,4 @@
+#! /bin/sh
 cd Desktop
 wget "https://github.com/mpaynezen/linux/raw/main/ConnectWiseControl.ClientSetup.deb"
 wget "https://github.com/mpaynezen/linux/raw/main/anyconnect-linux64-4.9.05042-predeploy-k9.tar.gz"
