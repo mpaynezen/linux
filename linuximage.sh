@@ -12,4 +12,6 @@ sudo dpkg -i ConnectWiseControl.ClientSetup.deb
 sudo dpkg -i teams_1.4.00.7556_amd64.deb
 sudo dpkg -i amp_Workstation_Protect_Group_ubuntu-20-04.deb
 tar xvf anyconnect-linux64-4.9.05042-predeploy-k9.tar.gz
-sudo anyconnect-linux64-4.9.05042-predeploy-k9.tar.gz/vpn/vpn_install.sh
+cd anyconnect-linux64-4.9.05042/vpn
+sudo ./vpn_install.sh
+
